@@ -1,0 +1,9 @@
+body { margin:0; background:black; color:white; font-family:Georgia;}
+#topbar {padding:10px; background:#111; border-bottom:1px solid gold;}
+#layout {display:flex; height:90vh;}
+#left, #right {width:20%; background:#111; padding:10px;}
+#center {flex:1; position:relative;}
+#image {height:60%; background-size:cover;}
+#choices {padding:10px;}
+button {display:block; margin:5px 0; padding:10px; background:#222; color:white; border:1px solid gold;}
+button:hover {background:gold; color:black;}
